@@ -18,35 +18,15 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
 
 .card {
   padding: 2em;
 }
 
-.read-the-docs {
-  color: #888;
-}
 
 
 
-.hello{
-  display: flex;
-  justify-content: center;
-}
 
 .slider {
   width: 300px;
@@ -63,6 +43,14 @@
 
 
 .layout{
+  margin-top: 20px;
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-between;
 }
+.dive{
+  display: flex;
+  margin-left:100px; 
+  margin-right:10px; 
+}
+

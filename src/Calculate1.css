@@ -1,0 +1,22 @@
+.CalculatorNo1{
+ display: flex;
+ flex-direction: column;
+}
+
+.Input{
+    margin-top: 10px;
+    flex-grow: 1;
+}
+.InputNav{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.paraInput{
+    flex-grow:  1;
+    margin-right: 10px;
+}
+
+/*iNPUT CSS*/
+
